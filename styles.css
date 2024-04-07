@@ -17,6 +17,7 @@ div{
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
+    border: solid grey 5px;
 }
 
 .screen{
@@ -27,6 +28,9 @@ div{
     border: solid white 15px;
     box-sizing: border-box;
     border-radius: 30px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 
 .buttons{
