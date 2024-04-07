@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.mainBody{
+    background-color: #1E3231;
+    height: 800px;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.screen{
+    background-color: #F6C0D0;
+    height: 200px;
+    width: 530px;
+    margin: 50px;
+    border: solid white 15px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.buttons{
+    background-color: #485665;
+    height: 400px;
+    width: 550px;
+    /* box-sizing: border-box; */
+    border-radius: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid #D0A5C0 5px;
+    padding: 8px;
+}
+
+.buttons button{
+    background-color: #8E7C93;
+    height: 80px;
+    width: 130px;
+    border-radius: 50px;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    border: solid rgb(92, 81, 39) 2px;
+}
+
+.extraButtons{
+    height: 40px;
+    width : 550px;
+    justify-content: space-evenly;
+}
+
+.extraButtons button{
+    height: 40px;
+    width: 80px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.numbersAndOp{
+    display: flex;
+    flex-wrap: wrap;
+}
