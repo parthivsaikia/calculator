@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'InfoFont';
+    src: url('DS-DIGIT.TTF') format('woff2'),
+         url('DS-DIGIT.TTF') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 body{
     display: flex;
     justify-content: center;
@@ -29,8 +37,10 @@ div{
     box-sizing: border-box;
     border-radius: 30px;
     color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-family: 'InfoFont';
+    font-size: 50px;
+    justify-content: end;
+    align-items: flex-end;
 }
 
 .buttons{
@@ -83,3 +93,4 @@ div{
 .extraButtons button:hover{
     background-color: lightgreen;
 }
+
