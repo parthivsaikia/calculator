@@ -72,3 +72,10 @@ div{
     display: flex;
     flex-wrap: wrap;
 }
+
+.numbersAndOp button:hover{
+    background-color: aliceblue;
+}
+.extraButtons button:hover{
+    background-color: lightgreen;
+}
