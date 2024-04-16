@@ -41,6 +41,8 @@ div{
     font-size: 50px;
     justify-content: end;
     align-items: flex-end;
+    display: flex;
+    flex-direction: column;
 }
 
 .buttons{
@@ -94,3 +96,21 @@ div{
     background-color: lightgreen;
 }
 
+.screen1{
+    background-color: #F6C0D0;
+    width: 500px;
+    height: 100px;
+    box-sizing: border-box;
+    justify-content: end;
+    align-items: flex-end;
+    color: #8E7C93;
+    font-size: 30px;
+}
+
+.screen2{
+    background-color: #F6C0D0;
+    width: 500px;
+    height: 100px;
+    justify-content: end;
+    align-items: flex-end;
+}
